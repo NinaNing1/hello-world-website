@@ -1,16 +1,14 @@
 /* Set background color */
 body {
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    margin: 40px;
 }
 
-/* Style the heading */
+/* Style headings */
 h1 {
-    color: blue;
-    text-align: center;
+    color: #333;
 }
 
 /* Style paragraphs */
@@ -19,12 +17,11 @@ p {
     color: #555;
 }
 
-/* Add a simple box around content */
-.container {
-    width: 80%;
-    margin: auto;
-    background: white;
-    padding: 20px;
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
 }
